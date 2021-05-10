@@ -1,36 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #F49612;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f49612;
 }
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 h2 {
-    font-size: 4rem;
-    font-weight: bold;
-    padding: 2rem;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 2rem;
 }
-.container-day,.container-hour,.container-minutes,.container-seconds,.coming-soon {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.container-day,
+.container-hour,
+.container-minutes,
+.container-seconds,
+.coming-soon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .coming-soon {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 .countdown {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.container-day,.container-hour,.container-minutes,.container-seconds {
-    padding: 2rem;
+.container-day,
+.container-hour,
+.container-minutes,
+.container-seconds {
+  padding: 2rem;
 }
-.day,.hour,.minutes,.seconds {
-    font-size: 2rem;
+.day,
+.hour,
+.minutes,
+.seconds {
+  font-size: 2rem;
 }
 .image {
-    height: 60vh;
+  height: 60vh;
 }
